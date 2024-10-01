@@ -1,1 +1,35 @@
-rdtrdrtdrt
+axelgonzalez@Axels-MacBook-Air ~ % ssh agonza44@sphinx.ag.utk.edu
+agonza44@sphinx.ag.utk.edu's password: 
+Last login: Mon Oct 10 14:22:25 2022 from 10.131.184.69
+(base) [agonza44@sphinx ~]$ cd /pickett_shared/teaching/EPP622_Fall2022/analysis_test2/agonza44/
+(base) [agonza44@sphinx agonza44]$ ls
+1_fastqc
+(base) [agonza44@sphinx agonza44]$ cd 1_fastqc/
+(base) [agonza44@sphinx 1_fastqc]$ ls
+SRR6922141_1.fastq
+(base) [agonza44@sphinx 1_fastqc]$ ln -s ../../raw_data/solenopsis_invicta/SRR6922185.fastq 
+(base) [agonza44@sphinx 1_fastqc]$ ls
+SRR6922141_1.fastq  SRR6922185.fastq
+(base) [agonza44@sphinx 1_fastqc]$ rm SRR6922141_1.fastq 
+(base) [agonza44@sphinx 1_fastqc]$ rm SRR6922185.fastq 
+(base) [agonza44@sphinx 1_fastqc]$ ls
+(base) [agonza44@sphinx 1_fastqc]$ ls
+(base) [agonza44@sphinx 1_fastqc]$ 
+(base) [agonza44@sphinx 1_fastqc]$ 
+(base) [agonza44@sphinx 1_fastqc]$ ln -s ../../raw_data/solenopsis_invicta/SRR6922236_1.fastq
+(base) [agonza44@sphinx 1_fastqc]$ ls
+SRR6922236_1.fastq
+(base) [agonza44@sphinx 1_fastqc]$ ln -s ../../raw_data/solenopsis_invicta_test2/SRR6922236_1.fastq
+ln: failed to create symbolic link './SRR6922236_1.fastq': File exists
+(base) [agonza44@sphinx 1_fastqc]$ ls
+SRR6922236_1.fastq
+(base) [agonza44@sphinx 1_fastqc]$ rm SRR6922236_1.fastq 
+(base) [agonza44@sphinx 1_fastqc]$ ln -s ../../raw_data/solenopsis_invicta_test2/SRR6922236_1.fastq
+(base) [agonza44@sphinx 1_fastqc]$ ls
+SRR6922236_1.fastq
+(base) [agonza44@sphinx 1_fastqc]$ rm SRR6922236_1.fastq 
+(base) [agonza44@sphinx 1_fastqc]$ ln -s /pickett_shared/teaching/EPP622_Fall2022/raw_data/solenopsis_invicta_test2/SRR6922141.fastq
+(base) [agonza44@sphinx 1_fastqc]$ ls
+SRR6922141.fastq
+(base) [agonza44@sphinx 1_fastqc]$ rm SRR6922141.fastq 
+(base) [agonza44@sphinx 1_fastqc]$ ln -s /pickett_shared/
